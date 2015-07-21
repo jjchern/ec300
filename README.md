@@ -6,6 +6,7 @@ The goal of ec300 is to provide friendly functions for students in Econ 300, sum
 
 -   `getmm()`: Get datasets used in Mastering 'Metrics.
 -   `reg()`: Run a OLS regression just like running `reg y x, r` in Stata.
+-   `fits()`: Retrun a vector of fitted values. Like `predict fits, xb` in Stata
 
 Installation
 ============
@@ -21,4 +22,5 @@ Usage
 ``` r
 getmm("mlda")
 reg(all ~ agecell, mlda)
+fits(all ~ agecell, mlda)
 ```
