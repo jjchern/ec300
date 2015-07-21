@@ -12,7 +12,7 @@ getmm(data, envir = parent.frame())
 \item{envir}{An environment in which to store the object. Default is the parent environment.}
 }
 \value{
-A dataset.
+A dataframe.
 }
 \description{
 Get datasets from Mastering 'Metrics
