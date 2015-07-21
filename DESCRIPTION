@@ -10,6 +10,8 @@ License: MIT
 LazyData: TRUE
 URL: https://github.com/jjchern/ec300
 BugReports: https://github.com/jjchern/ec300/issues
+Depends:
+    ggvis
 Imports:
     broom,
     dplyr,
