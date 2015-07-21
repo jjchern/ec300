@@ -5,6 +5,7 @@ ec300
 The goal of ec300 is to provide friendly functions for students in Econ 300, summmer 2015. The package includes the following functions:
 
 -   `getmm()`: Get datasets used in Mastering 'Metrics.
+-   `reg()`: Run a OLS regression just like running `reg y x, r` in Stata.
 
 Installation
 ============
@@ -19,4 +20,5 @@ Usage
 
 ``` r
 getmm("mlda")
+reg(all ~ agecell, mlda)
 ```

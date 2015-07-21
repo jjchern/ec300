@@ -11,7 +11,10 @@ LazyData: TRUE
 URL: https://github.com/jjchern/ec300
 BugReports: https://github.com/jjchern/ec300/issues
 Imports:
-    car,
+    broom,
     dplyr,
+    lmtest,
     ggvis,
-    rio
+    magrittr,
+    rio,
+    sandwich
