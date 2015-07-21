@@ -6,7 +6,7 @@ Date: 2015-07-20
 Authors@R: person("JJ", "Chen", email = "jiajia.chern@gmail.com", role = c("aut", "cre"))
 Maintainer: JJ Chen <jiajia.chern@gmail.com>
 Description: Just a few functions for Econ 300.
-License: CCO
+License: MIT
 LazyData: TRUE
 URL: https://github.com/jjchern/ec300
 BugReports: https://github.com/jjchern/ec300/issues
