@@ -18,7 +18,7 @@ getmm = function(data, envir = parent.frame()) {
   if(data == "banks"){
     dat = rio::import("http://masteringmetrics.com/wp-content/uploads/2015/02/banks.csv") %>%
       dplyr::tbl_df()
-    assgin(data, dat, envir = envir)
+    assign(data, dat, envir = envir)
     invisible(dat)
   }
 
