@@ -14,7 +14,6 @@ Imports:
     broom,
     dplyr,
     lmtest,
-    ggvis,
     magrittr,
     rio,
     sandwich
