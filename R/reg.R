@@ -6,7 +6,7 @@
 #' @return A dataframe that includes regression coefficients and robust standard errors.
 #' @examples
 #' reg(mpg ~ hp + wt, data = mtcars)
-#' @import lmtest broom dplyr sandwich magrittr ggvis
+#' @import lmtest broom dplyr sandwich magrittr
 #' @export
 reg = function(formula, data, ...){
   ols = lm(formula, data = data)
